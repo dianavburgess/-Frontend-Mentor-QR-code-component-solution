@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+h5 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  line-height: normal;
+  margin: 0 15px;
+}
+
+.card {
+  margin: 8rem 40%;
+  text-align: center;
+  border-radius: 4%;
+  padding-bottom: 20px;
+}
+
+.qr-code {
+  width: 90%;
+  border-radius: 4%;
+  margin: 15px 15px;
+}
+
+@media (max-width: 500px) {
+  .card {
+    margin: 20% 12%;
+  }
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
